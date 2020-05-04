@@ -30,3 +30,8 @@ a. x = 7u
 b. y = 7 - 7v
 
 c. (2.625, 5.25) is gray
+
+-------------------------------------LAB5-------------------------------------
+https://drive.google.com/file/d/1Za6EBqPMShJ9dGZJF19rjc-elWeP2OqN/view?usp=sharing
+
+Modified tracks that makes race longer, also changed some environments to fit the new tracks
