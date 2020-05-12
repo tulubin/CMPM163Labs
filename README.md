@@ -39,6 +39,7 @@ https://drive.google.com/file/d/1Za6EBqPMShJ9dGZJF19rjc-elWeP2OqN/view?usp=shari
 -------------------------------------LAB6-------------------------------------
 
 Lighting:
+
     - Spotlight: Lighting to a specific cone of area
 
     - Directional Light: Lighting as sunlight, parallel projecting the light onto scene
