@@ -40,12 +40,27 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
 - Lighting:
     - Spotlight: Lighting to a specific cone of area
+
     - Directional Light: Lighting as sunlight, parallel projecting the light onto scene
+
     - Point Light: Lighting surrounding area with a light source
+
     - Area Light: Lighting the static object only at a low performance cost
 
 - Materials:
 ![](misc/Glass-Wall.png)
 
 ![](misc/glass.png)
+
+    - Changed rendering mode to Transparent
+
+    - Changed color to be more like glass
+
+- Textures:
+
+    - Texture1: floor texture as marble floor
+
+    - Texture2: Torch texture as wood
+
+- Skyboxes:
 
