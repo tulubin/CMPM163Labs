@@ -38,7 +38,7 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
 -------------------------------------LAB6-------------------------------------
 
-- Lighting:
+Lighting:
     - Spotlight: Lighting to a specific cone of area
 
     - Directional Light: Lighting as sunlight, parallel projecting the light onto scene
@@ -47,7 +47,7 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
     - Area Light: Lighting the static object only at a low performance cost
 
-- Materials:
+Materials:
 ![](misc/Glass-Wall.png)
 
 ![](misc/glass.png)
@@ -58,13 +58,13 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
     - Because galss in real world can reflect light while not all of them, some light pass through it, by simulating the same behavior in unity, it will look like a glass in real world.
 
-- Textures:
+Textures:
 
     - Texture1: floor texture as marble floor
 
     - Texture2: Torch texture as wood
 
-- Skyboxes:
+Skyboxes:
 
     - Added a starry night skybox
 
