@@ -56,6 +56,8 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
     - Changed color to be more like glass
 
+    - Because galss in real world can reflect light while not all of them, some light pass through it, by simulating the same behavior in unity, it will look like a glass in real world.
+
 - Textures:
 
     - Texture1: floor texture as marble floor
@@ -64,6 +66,6 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
 - Skyboxes:
 
-    - Added a free skybox asset from assets store
+    - Added a starry night skybox
 
 ![](misc/lab6.png)
