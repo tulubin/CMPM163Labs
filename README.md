@@ -64,3 +64,6 @@ Modified tracks that makes race longer, also changed some environments to fit th
 
 - Skyboxes:
 
+    - Added a free skybox asset from assets store
+
+![](misc/lab6.png)
