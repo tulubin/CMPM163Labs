@@ -77,3 +77,11 @@ https://drive.google.com/file/d/1idV9TcbedpxL6bwhVww7SULFNKTEkbIr/view?usp=shari
     - For mountain: I used 2 noise on top of each other to create a mountain terrain that looks random enough, and put a texture on it found online.
 
     - For water: I used a normal map texture found online and added blue color to it, make it looks like water, and then duplicate the normal texture while multiply the world space position with time value, make both water normal texture moving to a different direction. By blending both texture provide random waves to water.
+
+Answers from partner:
+
+    - "I did part 1."
+
+    - "the most challenging part I found to be was getting the mountain mesh to fit into my 3D scene because it created an effect that had no height/depth to it, so the mountain shape I got was hollow. So I had some trouble figuring out how to make it look rock-like."
+
+    - "The most interesting part for me was creating the water, because being able to change the speed and wave power with just 2 bars was really cool to see."
