@@ -74,6 +74,6 @@ Skyboxes:
 -------------------------------------LAB7-------------------------------------
 https://drive.google.com/file/d/1idV9TcbedpxL6bwhVww7SULFNKTEkbIr/view?usp=sharing
 
-For mountain: I used 2 noise on top of each other to create a mountain terrain that looks random enough, and put a texture on it found online.
+    - For mountain: I used 2 noise on top of each other to create a mountain terrain that looks random enough, and put a texture on it found online.
 
-For water: I used a normal map texture found online and added blue color to it, make it looks like water, and then duplicate the normal texture while multiply the world space position with time value, make both water normal texture moving to a different direction. By blending both texture provide random waves to water.
+    - For water: I used a normal map texture found online and added blue color to it, make it looks like water, and then duplicate the normal texture while multiply the world space position with time value, make both water normal texture moving to a different direction. By blending both texture provide random waves to water.
