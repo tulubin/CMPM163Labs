@@ -88,6 +88,6 @@ Answers from partner:
 
 -------------------------------------LAB8-------------------------------------
 ![](misc/city.jpg)
-![](misc/city2.jpg)
+![](misc/city2.png)
 
 Inspiration: My homecity is Surrounded by river and trees, which I also added them in the project.
