@@ -85,3 +85,9 @@ Answers from partner:
     - "the most challenging part I found to be was getting the mountain mesh to fit into my 3D scene because it created an effect that had no height/depth to it, so the mountain shape I got was hollow. So I had some trouble figuring out how to make it look rock-like."
 
     - "The most interesting part for me was creating the water, because being able to change the speed and wave power with just 2 bars was really cool to see."
+
+-------------------------------------LAB8-------------------------------------
+![](misc/city.jpg)
+![](misc/city2.jpg)
+
+Inspiration: My homecity is Surrounded by river and trees, which I also added them in the project.

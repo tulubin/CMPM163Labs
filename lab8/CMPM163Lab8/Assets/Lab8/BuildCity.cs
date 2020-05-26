@@ -21,7 +21,7 @@ public class BuildCity : MonoBehaviour
         {
             for (int w = 0; w < mapWidth; w++)
             {
-                mapgrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 13);
+                mapgrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 15);
             }
         }
         //Building streets
@@ -110,7 +110,7 @@ public class BuildCity : MonoBehaviour
                 {
                     Instantiate(buildings[9], pos, Quaternion.identity);
                 }
-                else if (result < 13)
+                else if (result < 15)
                 {
                     Instantiate(buildings[10], pos, Quaternion.identity);
                 }

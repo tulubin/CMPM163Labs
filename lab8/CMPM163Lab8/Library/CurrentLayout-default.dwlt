@@ -112,10 +112,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 708, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 707, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 2009
+  controlID: 59
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,10 +137,10 @@ MonoBehaviour:
     y: 0
     width: 1476
     height: 987
-  m_MinSize: {x: 433, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
+  m_MinSize: {x: 432, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 2010
+  controlID: 60
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 14}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,10 +190,10 @@ MonoBehaviour:
     y: 712
     width: 1476
     height: 275
-  m_MinSize: {x: 433, y: 271}
-  m_MaxSize: {x: 14003, y: 10021}
+  m_MinSize: {x: 432, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 1939
+  controlID: 42
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 694
     height: 275
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 162.76144, y: 42.14956, z: -35.866516}
+    m_Target: {x: 268.86902, y: 13.649033, z: 192.76924}
     speed: 2
-    m_Value: {x: -0.08792114, y: 19.364998, z: 1.9122987}
+    m_Value: {x: 268.86902, y: 13.649033, z: 192.76924}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -448,13 +448,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17068526, y: -0.17456606, z: 0.030747566, w: 0.96927273}
+    m_Target: {x: 0.06335048, y: -0.90235066, z: 0.14220817, w: 0.40199342}
     speed: 2
-    m_Value: {x: 0.1706817, y: -0.17456242, z: 0.030746926, w: 0.9692525}
+    m_Value: {x: 0.06295644, y: -0.9019264, z: 0.1407551, w: 0.4034269}
   m_Size:
-    m_Target: 1.4150971
+    m_Target: 2.1219096
     speed: 2
-    m_Value: 28.070158
+    m_Value: 2.1219096
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -599,34 +599,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Lab8
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/building
+  - Assets/Lab8
   m_LastFoldersGridSize: 16
   m_LastProjectPath: G:\WorkSpace\CMPM163Labs\lab8\CMPM163Lab8
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a330000
-    m_LastClickedID: 13194
-    m_ExpandedIDs: 000000008a3300009033000092330000223a0000fa41000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: ca370000
+    m_LastClickedID: 14282
+    m_ExpandedIDs: 00000000ba370000bc370000be370000c0370000c2370000c437000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Simple
-      m_OriginalName: Simple
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13202
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -640,7 +640,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008a33000000ca9a3b
+    m_ExpandedIDs: 00000000ba370000bc370000be370000c0370000c2370000c4370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -671,18 +671,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c62300000000000012350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: examples
-      m_OriginalName: examples
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 16910
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -692,7 +692,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 60}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 209
