@@ -121,6 +121,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &633752822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633752824}
+  - component: {fileID: 633752823}
+  m_Layer: 0
+  m_Name: CityManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &633752823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633752822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b8da5eb07141404f8efbf05636fbb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildings:
+  - {fileID: 141268, guid: b3d3a7ba5f4d42943920370ae1696723, type: 3}
+  - {fileID: 147108, guid: 3d01ef65dd7df27469c08a5faaf917bd, type: 3}
+  - {fileID: 151704, guid: 43cefcf568e58d84d802bbb3c6a74777, type: 3}
+  - {fileID: 189348, guid: d597a8fa6b192c545bbae896e4d42a21, type: 3}
+  - {fileID: 117616, guid: b2fcb4869e568194ebff11fc13530282, type: 3}
+  - {fileID: 3862838143064563820, guid: d1ccd0f43d03f3f4297c7676bf9457de, type: 3}
+  streetX: {fileID: 7888461970168547080, guid: f867d3c601ad0224c9c1bd2ed3f5fff3, type: 3}
+  streetZ: {fileID: 3172784941058536377, guid: 459ec83cfac65b54ca0f089762d07e80, type: 3}
+  streetC: {fileID: 5715812228914511268, guid: b023fb85d49006547ade3d7bd93fe444, type: 3}
+  mapWidth: 100
+  mapHeight: 100
+--- !u!4 &633752824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633752822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.9333262, y: -2.4909952, z: -7.4987845}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
