@@ -21,7 +21,7 @@ public class BuildCity : MonoBehaviour
         {
             for (int w = 0; w < mapWidth; w++)
             {
-                mapgrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 10);
+                mapgrid[w, h] = (int)(Mathf.PerlinNoise(w / 10.0f, h / 10.0f) * 13);
             }
         }
         //Building streets
@@ -74,26 +74,47 @@ public class BuildCity : MonoBehaviour
                 {
                     Instantiate(buildings[0], pos, Quaternion.identity);
                 }
-                else if (result < 4)
+                else if (result < 3)
                 {
                     Instantiate(buildings[1], pos, Quaternion.identity);
                 }
-                else if (result < 5)
+                else if (result < 4)
                 {
                     Instantiate(buildings[2], pos, Quaternion.identity);
                 }
-                else if (result < 6)
+                else if (result < 5)
                 {
                     Instantiate(buildings[3], pos, Quaternion.identity);
                 }
-                else if (result < 7)
+                else if (result < 6)
                 {
                     Instantiate(buildings[4], pos, Quaternion.identity);
                 }
-                else if (result < 10)
+                else if (result < 7)
                 {
                     Instantiate(buildings[5], pos, Quaternion.identity);
                 }
+                else if (result < 8)
+                {
+                    Instantiate(buildings[6], pos, Quaternion.identity);
+                }
+                else if (result < 9)
+                {
+                    Instantiate(buildings[7], pos, Quaternion.identity);
+                }
+                else if (result < 10)
+                {
+                    Instantiate(buildings[8], pos, Quaternion.identity);
+                }
+                else if (result < 11)
+                {
+                    Instantiate(buildings[9], pos, Quaternion.identity);
+                }
+                else if (result < 13)
+                {
+                    Instantiate(buildings[10], pos, Quaternion.identity);
+                }
+
 
 
                 // int n = Random.Range(0, buildings.Length);

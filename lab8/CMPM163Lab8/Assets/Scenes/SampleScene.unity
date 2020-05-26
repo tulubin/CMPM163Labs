@@ -156,10 +156,15 @@ MonoBehaviour:
   - {fileID: 151704, guid: 43cefcf568e58d84d802bbb3c6a74777, type: 3}
   - {fileID: 189348, guid: d597a8fa6b192c545bbae896e4d42a21, type: 3}
   - {fileID: 117616, guid: b2fcb4869e568194ebff11fc13530282, type: 3}
+  - {fileID: 1325527900310296834, guid: 1380e343bc8dc614e8dc7a1c6d0894b7, type: 3}
   - {fileID: 3862838143064563820, guid: d1ccd0f43d03f3f4297c7676bf9457de, type: 3}
-  streetX: {fileID: 7888461970168547080, guid: f867d3c601ad0224c9c1bd2ed3f5fff3, type: 3}
-  streetZ: {fileID: 3172784941058536377, guid: 459ec83cfac65b54ca0f089762d07e80, type: 3}
-  streetC: {fileID: 5715812228914511268, guid: b023fb85d49006547ade3d7bd93fe444, type: 3}
+  - {fileID: 8601206731915690959, guid: f15b1914047d0b145be565ed53dab34f, type: 3}
+  - {fileID: 2139414950263385738, guid: 43a7e1aead954124a94c1f18501d416e, type: 3}
+  - {fileID: 8189150826303631119, guid: 88a74ba7fe93fd240bee2b5bb8574968, type: 3}
+  - {fileID: 8809375602813002843, guid: abac4c4caf3814a47958609f0f5ddc0c, type: 3}
+  streetX: {fileID: 8112838683887389539, guid: 1f9e596df499a524484c170dada7048f, type: 3}
+  streetZ: {fileID: 8112838683887389539, guid: 5040619192e6ce14da95a50132520f1f, type: 3}
+  streetC: {fileID: 8297836184889961709, guid: 08daaff52c4b32942a798879a50d0648, type: 3}
   mapWidth: 100
   mapHeight: 100
 --- !u!4 &633752824
@@ -204,7 +209,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
