@@ -91,3 +91,13 @@ Answers from partner:
 ![](misc/city2.png)
 
 Inspiration: My homecity is Surrounded by river and trees, which I also added them in the project.
+
+Answers from partner:
+  
+    - He did part 2.
+    
+    - "the tutorial had us generate just the buildings, ranging from low to high; I separated the city into four different colored parts: skyscrapers (grey), business/commercial (beige), neighborhoods/slums (brown), and parks/water (green and blue)
+the heights differ for each; I used some disgusting if-else statements and random numbers for the generation
+in addition to sampling from a noise texture"
+
+    - "being a newbie at game graphics, I thought the whole notion of noise was cool; it's clever that we use it to put some order in the chaos of randomization, it's also cool that we can use it not only to determine the layout of the city, but the heights of each building"
