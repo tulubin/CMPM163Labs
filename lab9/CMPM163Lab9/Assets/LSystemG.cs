@@ -16,16 +16,16 @@ public class LSystemG : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        axiom = "F";
-        rules.Add('F', "FF+[+F-F-F]-[-F+F+F]");
-        angle = 25f;
-        length = 10f;
-
-        // axiom = "FG";
-        // rules.Add('F', "F-G+F+G-F");
-        // rules.Add('G', "GG");
-        // angle = 90f;
+        // axiom = "F";
+        // rules.Add('F', "FF+[+F-F-F]-[-F+F+F]");
+        // angle = 25f;
         // length = 10f;
+
+        axiom = "A";
+        rules.Add('A', "-A[+B+F]+");
+        rules.Add('B', "−F[+F−B]");
+        angle = 60f;
+        length = 100f;
 
         currentString = axiom;
         StartCoroutine(GenerateLSystem());
@@ -80,13 +80,20 @@ public class LSystemG : MonoBehaviour
         for (int i = 0; i < stringCharacters.Length; i++)
         {
             char currentCharacter = stringCharacters[i];
-            if (currentCharacter == 'F' || currentCharacter == 'G')
+            if (currentCharacter == 'F')
             {
                 Vector3 initialPosition = transform.position;
                 transform.Translate(Vector3.forward * length);
                 Debug.DrawLine(initialPosition, transform.position, Color.white, 10000f, false);
                 yield return null;
             }
+            // if (currentCharacter == 'F' || currentCharacter == 'G')
+            // {
+            //     Vector3 initialPosition = transform.position;
+            //     transform.Translate(Vector3.forward * length);
+            //     Debug.DrawLine(initialPosition, transform.position, Color.white, 10000f, false);
+            //     yield return null;
+            // }
             else if (currentCharacter == '+')
             {
                 transform.Rotate(Vector3.up * angle);
